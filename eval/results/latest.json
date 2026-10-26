@@ -1,0 +1,177 @@
+{
+  "cases": 28,
+  "labelled_issues": 19,
+  "results": [
+    {
+      "mode": "static",
+      "overall": {
+        "tp": 13,
+        "fp": 4,
+        "fn": 6,
+        "precision": 0.765,
+        "recall": 0.684,
+        "f1": 0.722
+      },
+      "per_category": {
+        "bug": {
+          "tp": 4,
+          "fp": 0,
+          "fn": 5,
+          "precision": 1.0,
+          "recall": 0.444,
+          "f1": 0.615
+        },
+        "security": {
+          "tp": 7,
+          "fp": 4,
+          "fn": 0,
+          "precision": 0.636,
+          "recall": 1.0,
+          "f1": 0.778
+        },
+        "performance": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.667,
+          "f1": 0.8
+        },
+        "style": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "clean_prs": 10,
+      "clean_prs_with_false_positive": 1,
+      "false_positive_rate_on_clean_prs": 0.1,
+      "dropped_out_of_diff": 0,
+      "dropped_invalid": 0,
+      "merged_duplicates": 9,
+      "latency_ms_mean": 4358.6,
+      "latency_ms_p95": 4494.5,
+      "tokens": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    {
+      "mode": "scripted",
+      "overall": {
+        "tp": 15,
+        "fp": 2,
+        "fn": 4,
+        "precision": 0.882,
+        "recall": 0.789,
+        "f1": 0.833
+      },
+      "per_category": {
+        "bug": {
+          "tp": 6,
+          "fp": 1,
+          "fn": 3,
+          "precision": 0.857,
+          "recall": 0.667,
+          "f1": 0.75
+        },
+        "security": {
+          "tp": 7,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "performance": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.667,
+          "f1": 0.8
+        },
+        "style": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "clean_prs": 10,
+      "clean_prs_with_false_positive": 2,
+      "false_positive_rate_on_clean_prs": 0.2,
+      "dropped_out_of_diff": 1,
+      "dropped_invalid": 1,
+      "merged_duplicates": 0,
+      "latency_ms_mean": 8.4,
+      "latency_ms_p95": 9.7,
+      "tokens": {
+        "input": 0,
+        "output": 0
+      }
+    },
+    {
+      "mode": "combined",
+      "overall": {
+        "tp": 17,
+        "fp": 6,
+        "fn": 2,
+        "precision": 0.739,
+        "recall": 0.895,
+        "f1": 0.81
+      },
+      "per_category": {
+        "bug": {
+          "tp": 7,
+          "fp": 1,
+          "fn": 2,
+          "precision": 0.875,
+          "recall": 0.778,
+          "f1": 0.824
+        },
+        "security": {
+          "tp": 7,
+          "fp": 4,
+          "fn": 0,
+          "precision": 0.636,
+          "recall": 1.0,
+          "f1": 0.778
+        },
+        "performance": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "style": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "clean_prs": 10,
+      "clean_prs_with_false_positive": 3,
+      "false_positive_rate_on_clean_prs": 0.3,
+      "dropped_out_of_diff": 1,
+      "dropped_invalid": 1,
+      "merged_duplicates": 20,
+      "latency_ms_mean": 4297.4,
+      "latency_ms_p95": 4382.8,
+      "tokens": {
+        "input": 0,
+        "output": 0
+      }
+    }
+  ]
+}
