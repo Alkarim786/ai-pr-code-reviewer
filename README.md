@@ -3,9 +3,6 @@
 **Multi-agent AI code reviewer for GitHub pull requests: parallel specialist agents with tool use, grounded in static analysis, posting line-anchored structured comments, and measured on a seeded-bug eval set.**
 
 ![Python](https://img.shields.io/badge/python-3.11%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green) [![CI](https://github.com/Alkarim786/ai-pr-code-reviewer/actions/workflows/ci.yml/badge.svg)](https://github.com/Alkarim786/ai-pr-code-reviewer/actions/workflows/ci.yml)
-
-*Project 12 of Karim's 30 Days, 30 Projects series.*
-
 ## Problem
 
 LLM reviewers tend to hallucinate line numbers, flood PRs with nitpicks and can be steered by text inside the PR itself. This project treats the model as an untrusted proposer: it gets read-only tools and static-analysis evidence, must answer in a validated schema, and deterministic code decides what is actually posted.
